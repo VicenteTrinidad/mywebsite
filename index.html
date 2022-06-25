@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vicente D. Trinidad High School</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main1">
+            <div class="container">
+                <div class="navbar">
+                    <img src="images/navLogo.png" class="logo">
+                    <nav>
+                        <ul id = "menuList">
+                            <li><a href="index.html"><u>HOME</u></a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="admissions.html">ADMISSIONS</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/menuLogo.png" class="menu-icon" onclick="togglemenu()">
+                </div>
+
+                <div class = "row">
+                    <div class="col-1">
+                        <h1>Vicente D. Trinidad High School</h1>
+                        <br><br>
+                        <h3>Driven by Passion for Excellence in Holistic Education Iguig National High School had its humble beginning as Ajat Barrio High School which was established at the grounds of Iguig Central School under the incumbency of no less than Mr. David Santiago. It started with a handful students in 1970 by the late Vicente D. Trinidad, the municipal mayor. He was a generous person who planned and started to put up an instruction which would focus on the need of the society-education. </h3>
+                        <br><br>
+                        <button type="button" onclick="location.href='enroll.html'">Enroll Now!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <img src="images/Footer.png" alt="Footer">
+        </div>
+        <script>
+            var menuList = document.getElementById("menuList");
+            menuList.style.maxHeight = "0px";
+            function togglemenu(){
+                if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "130px"
+                }
+                else
+                {
+                    menuList.style.maxHeight = "0px"
+                }
+            }
+        </script>
+    </body>
+</html>

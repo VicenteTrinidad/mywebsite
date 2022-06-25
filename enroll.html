@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vicente D. Trinidad High School</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main1">
+            <div class="container1">
+                <div class="navbar">
+                    <img src="images/navLogo.png" class="logo">
+                    <nav>
+                        <ul id = "menuList">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="admissions.html">ADMISSIONS</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/menuLogo.png" class="menu-icon" onclick="togglemenu()">
+                </div>
+            </div>
+            <div class="container2">
+                <div class="pane">
+                    <div class = "container1">
+                        <div class="adm">
+                            <br><br>
+                            <img src="images/personalinfo.PNG" alt="Footer">
+                            <br><br>
+                            <img src="images/familyinfo.PNG" alt="Footer">
+                            <br><br>
+                            <img src="images/enrollmentstab.PNG" alt="Footer">
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <img src="images/Footer.png" alt="Footer">
+        </div>
+        <script>
+            var menuList = document.getElementById("menuList");
+            menuList.style.maxHeight = "0px";
+            function togglemenu(){
+                if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "130px"
+                }
+                else
+                {
+                    menuList.style.maxHeight = "0px"
+                }
+            }
+        </script>
+    </body>
+</html>

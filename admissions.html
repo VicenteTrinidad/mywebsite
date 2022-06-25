@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vicente D. Trinidad High School</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main1">
+            <div class="container1">
+                <div class="navbar">
+                    <img src="images/navLogo.png" class="logo">
+                    <nav>
+                        <ul id = "menuList">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="admissions.html"><u>ADMISSIONS</u></a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/menuLogo.png" class="menu-icon" onclick="togglemenu()">
+                </div>
+            </div>
+            <div class="container2">
+                <div class="pane">
+                    <div class = "container1">
+                        <div class="adm">
+                            <h1>ADMISSION PROCEDURE FOR VICENTE D. TRINIDAD HIGH SCHOOL ENROLLMENT</h1>
+                            <br><br>
+                            <h3>1. Fill out the online enrollment form. <a href="index.html">Click here!</a></h3>
+                            <h3>2. After a week, the student may come to the school for walk-in submission for the other requirements.</h3>
+                            <br><br><br>
+                            <h1>WHO CAN FILL-UP THE ENROLLMENT FORM?</h1>
+                            <br><br>
+                            <h3>1. An old senior high school student of the school.</h3>
+                            <h3>2. An incoming senior high school student that wants to be a part of the alma atter.</h3>
+                            <h3>3. Transferee student/s that has the means to submit all the necessary requirements.</h3>
+                            <br><br><br>
+                            <h1>FOR TRANSFEREE STUDENTS</h1>
+                            <br><br>
+                            <h3>1. (Text Here)</h3>
+                            <h3>2. (Text Here)</h3>
+                            <h3>3. (Text Here)</h3>
+                            <h3>4. (Text Here)</h3>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <img src="images/Footer.png" alt="Footer">
+        </div>
+        <script>
+            var menuList = document.getElementById("menuList");
+            menuList.style.maxHeight = "0px";
+            function togglemenu(){
+                if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "130px"
+                }
+                else
+                {
+                    menuList.style.maxHeight = "0px"
+                }
+            }
+        </script>
+    </body>
+</html>
